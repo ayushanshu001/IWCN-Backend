@@ -74,6 +74,6 @@ app.delete('/notes/:id',async (req,res)=>{
 
 seq.sync().then(()=>{
     app.listen(PORT,()=>{
-        console.log(`DB connected PORT ${8001}`)
+        console.log(`DB connected PORT ${8005}`)
     })
 })
